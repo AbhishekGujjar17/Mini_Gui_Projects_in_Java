@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Votes
+comment1.params=
+comment1.target=Votes()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Voting\r\n
+comment2.params=
+comment2.target=void\ incVoteCountSam()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\r\n\ @param\ \ y\ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ the\ sum\ of\ x\ and\ y\r\n
+comment3.params=
+comment3.target=void\ makeFrame()
+comment3.text=\r\n\ \ \ \ public\ void\ incVoteCountDon(){\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ donvoteCount\ \=\ donvoteCount\ +\ 1;\r\n\ \ \ \ \ \ \ \ labeldon.setText("Votes\ for\ don\ is\:\ "+\ donvoteCount);\r\n\ \ \ \ \ \ \ \ /**Container\ contentPane\ \=\ frame.getContentPane();\r\n\ \ \ \ \ \ \ \ labeldon\ \=\ new\ JLabel("Votes\ for\ don\ is\:\ "+\ donvoteCount);\r\n\ \ \ \ \ \ \ \ contentPane.add(labeldon);\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ }\r\n\ \ \ \ public\ void\ findWinner(){\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ if\ (samvoteCount\ >\ donvoteCount){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ labelsam.setText("Congartulatio\!\ You\ are\ winner\ Sam\!,\ you\ received\ "+\ samvoteCount\ +\ "\ Votes");\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ else\ if\ (samvoteCount\ <\ donvoteCount){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ labeldon.setText("Congartulatio\!\ You\ are\ winner\ Don\!,\ you\ received\ "+\ donvoteCount\ +\ "\ Votes");\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ else{\r\n\ \ \ \ \ \ \ \ \ \ \ \ labelsam.setText("Tied\ Votes");\r\n\ \ \ \ \ \ \ \ \ \ \ \ labeldon.setText("Tied\ Votes");\r\n\ \ \ \ \ \ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n
+numComments=4
